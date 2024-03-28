@@ -76,3 +76,26 @@ img {
 #titles_icons {
     display: flex;
 }
+
+/* Welcome_part */
+
+#welcome {
+    font-size: 50px;
+    font-weight: bold;
+}
+#chill {
+    font-size: 30px;
+    font-weight: bold;
+}
+#lavender {
+    background-image: url(./assets/images/flowered_coffee.jpg);
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+
