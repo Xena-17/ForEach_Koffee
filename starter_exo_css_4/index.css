@@ -15,3 +15,20 @@
     font-family: Montserrat;
 }
 
+/* header */
+
+header {
+    background-color: #7d0d23;
+    padding: 10px;
+    color:white;
+    display : flex;
+    flex-direction: row;
+}
+header ul {
+    list-style-type: none;
+}
+
+#logo {
+    font-family: Baby_Coffee;
+    font-size: 25px;
+}
