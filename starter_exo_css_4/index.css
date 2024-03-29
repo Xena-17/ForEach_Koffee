@@ -92,6 +92,7 @@ img {
     background-position: center;
     height: 300px;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -132,12 +133,12 @@ h2{
     background-image: url(./assets/images/eat_together.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     
 }
 
 .image_container {
-    width: 120px;
-    height: 120px;
+    width: 30%;
 }
 
 img {
@@ -147,13 +148,10 @@ img {
 
 .menu_container {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
     background-color: white;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    width: 1000px;
+    width: 48%;
     height: 300px;
+    margin: 10px;
 
 }
 
@@ -165,15 +163,11 @@ h3 {
     color: #7d0d23;
 }
 
-.text_menu {
-    display: flex;
-    flex-direction: row;
-}
-
 #blocks {
     display: flex;
     flex-direction: row;
-    background-color: aqua;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 30px;
 }
 
@@ -186,4 +180,8 @@ h3 {
 }
 #brown {
     color: #7d0d23;
+}
+.text_menu {
+    width: 70%;
+
 }
