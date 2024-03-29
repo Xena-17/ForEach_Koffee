@@ -55,24 +55,31 @@ h1{
     padding-left: 20px;
     
 }
+
 #icons {
     display : flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
-    padding-left: 10px;
+    padding:10px;
+}
 
 
 .icon {
     height: 25px;
     width: 25px;
+    margin: 10px;
 } 
+
+.icon:hover {
+    height: 35px;
+    width: 35px;
+}
 
 img {
     height: 100%;
     width: 100%;
 }
-}
+
 #titles_icons {
     display: flex;
 }
@@ -201,12 +208,18 @@ input {
 }
 
 #first_name,#email {
-    width: 49%;
+    width: 50%;
     
+}
+#first_name {
+    margin-right: 10px;
 }
 form {
     width: 2460px;
-    margin:auto
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+
 
 }
 
@@ -226,4 +239,7 @@ textarea {
 #message {
     width: 100%;
 }
-
+#inputs {
+ display: flex;
+ flex-direction: row;
+ }
