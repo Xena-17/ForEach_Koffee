@@ -116,5 +116,17 @@ h2{
     font-weight: bold;
 }
 
+/* menu part */
 
+#white_menu {
+    color: white;
+}
 
+#menu {
+    background-color: #7d0d23;
+}
+
+.background_fixed {
+    height: 200px;
+
+}
