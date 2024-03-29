@@ -190,14 +190,39 @@ h3 {
     color: #7d0d23;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin:40px;
 }
 
 input {
     width: 100%;
+    padding: 10px;
 }
 
-#first_name, email {
-    width: 48%;
+#first_name,#email {
+    width: 49%;
+    
+}
+form {
+    width: 2460px;
+    margin:auto
+
+}
+
+textarea {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+#button {
+    width:30%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: #7d0d23;
+    color: white;
+}
+#message {
+    width: 100%;
 }
