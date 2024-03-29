@@ -102,6 +102,19 @@ img {
 
 #story {
     color: #7d0d23;
+    padding: 20px 40px 40px 40px;
+    text-align: justify;
+    border-bottom: #7d0d23 2px solid;
 }
+
+h2{
+    text-align: center;
+    padding: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 
 
