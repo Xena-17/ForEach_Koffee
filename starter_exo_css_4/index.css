@@ -105,6 +105,7 @@ img {
     justify-content: center;
     align-items: center;
     color:white;
+    border-bottom: #7d0d23 2px solid;
 }
 
 /* Story_part */
